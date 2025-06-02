@@ -1,0 +1,4 @@
+/* Quitar bordes redondeados globalmente */
+* {
+  border-radius: 0 !important;
+}
