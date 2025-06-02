@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oriana Marrero</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Oriana Marrero | Interior design</title>
 </head>
-<body>
-    <h1>Oriana Marrero</h1>
+<body class="bg-[#F8F5F0] text-neutral-800">
+
+  <!-- Header -->
+  <header class="p-6 md:p-12 border-b border-neutral-300">
+    <h1 class="text-3xl font-bold tracking-tight">Oriana Marrero</h1>
+    <p class="text-sm uppercase text-neutral-500">Interior design</p>
+  </header>
+
+  <!-- Section: about me -->
+  <section id="about me" class="px-6 md:px-12 py-12">
+    <h2 class="text-2xl font-semibold mb-4">About me</h2>
+    <p class="max-w-2xl text-base text-neutral-700">
+        I am Oriana Marrero, an interior design student at Sheridan College with a background in Chemical Engineering and a passion for creating meaningful spaces. <br> <br>
+        Originally from Venezuela and now based in Canada, I bring a unique mix of creativity, technical understanding, and cultural perspective to every project. <br> <br>
+        My designs focus on emotional connection, storytelling, and spatial functionality—whether through colour, texture, or flow. With experience in event design, visual arts, and administrative roles, I adapt easily, communicate clearly, and thrive in collaborative environments.
+    </p>
+  </section>
+
+  <!-- Section: Projects -->
+  <section id="projects" class="px-6 md:px-12 py-12">
+    <h2 class="text-2xl font-semibold mb-6">Featured projects</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-neutral-200 h-64 flex items-center justify-center">Image project 1</div>
+      <div class="bg-neutral-200 h-64 flex items-center justify-center">Image project 2</div>
+    </div>
+  </section>
+
+  <!-- Section: Contact -->
+  <section id="contact" class="px-6 md:px-12 py-12 text-center">
+    <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+    <p class="mb-4">¿Are you interested in working with me?</p>
+    <a href="mailto:contacto@orianamarrero.com" class="inline-block border border-neutral-800 px-6 py-2 uppercase text-sm hover:bg-neutral-800 hover:text-white transition">Send me a message</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="p-6 text-center text-sm text-neutral-500 border-t border-neutral-300">
+    © 2025 Oriana Marrero · Mississauga, Canadá
+  </footer>
+
 </body>
 </html>
